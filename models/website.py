@@ -16,7 +16,7 @@
 # all copies or substantial portions of the Software.
 #
 #################################################################################
-"""	@version	20.0.1.0.1
+"""	@version	20.0.1.0.2
 	@owner  Hadron for Business
 	@author Hadron for Business sp. z o.o.
 	@date   2026.10.06
@@ -46,11 +46,12 @@ class Website(models.Model):
         popover text contains a quote or an ampersand."""
         if len(self) != 1:
             return Markup('[]')
+        # url is computed in Odoo 20; its search does not handle "!= False",
+        # so empty urls are filtered in Python.
         menus = self.env['website.menu'].sudo().search([
             ('website_id', '=', self.id),
             ('show_popover', '=', True),
-            ('url', '!=', False),
-        ])
+        ]).filtered('url')
         continue_label = _("Continue")
         cancel_label = _("Cancel")
         return Markup(json.dumps([{

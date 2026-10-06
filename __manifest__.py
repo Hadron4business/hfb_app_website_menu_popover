@@ -33,7 +33,7 @@ text appears first, with "Continue" and "Cancel" buttons. The visitor is
 taken to the link only after pressing Continue. The text can be translated
 into every website language.
 """,
-    'version': "20.0.1.0.1",
+    'version': "20.0.1.0.2",
     'author': "Hadron for Business sp. z o.o.",
     'website': "http://hadronforbusiness.com",
     'license': "OPL-1",
