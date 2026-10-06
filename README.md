@@ -37,4 +37,4 @@ Shows a confirmation dialog before a visitor follows a chosen website menu link.
 
 ## Status
 
-Source: client module (Odoo 18), where it was built for a main shop to outlet shop link. Neutralised and made generic. Odoo 18 build.
+Source: client module (Odoo 18), where it was built for a main shop to outlet shop link. Neutralised and made generic. Odoo 20 build.
