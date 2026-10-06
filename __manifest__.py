@@ -33,7 +33,7 @@ text appears first, with "Continue" and "Cancel" buttons. The visitor is
 taken to the link only after pressing Continue. The text can be translated
 into every website language.
 """,
-    'version': "19.0.1.0.0",
+    'version': "19.0.1.0.1",
     'author': "Hadron for Business sp. z o.o.",
     'website': "http://hadronforbusiness.com",
     'license': "OPL-1",
@@ -46,7 +46,7 @@ into every website language.
         'views/popover_templates.xml',
     ],
     'assets': {
-        'web.assets_frontend': [
+        'web.assets_frontend_minimal': [
             'hfb_app_website_menu_popover/static/src/js/menu_popover.js',
         ],
     },
