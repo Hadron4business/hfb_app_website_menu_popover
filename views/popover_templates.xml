@@ -7,7 +7,7 @@
     <template id="layout_popover_menus" inherit_id="website.layout">
         <xpath expr="//div[@id='wrapwrap']" position="after">
             <script type="application/json" id="hfb_menu_popover_data">
-                <t t-out="request.website._get_popover_menus_json()"/>
+                <t t-out="website._get_popover_menus_json()"/>
             </script>
         </xpath>
     </template>
