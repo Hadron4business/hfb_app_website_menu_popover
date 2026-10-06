@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="website_menus_form_view_popover" model="ir.ui.view">
+        <field name="name">website.menu.form.popover</field>
+        <field name="model">website.menu</field>
+        <field name="inherit_id" ref="website.website_menus_form_view"/>
+        <field name="arch" type="xml">
+            <field name="new_window" position="after">
+                <field name="show_popover"/>
+                <field name="popover_text" invisible="not show_popover"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

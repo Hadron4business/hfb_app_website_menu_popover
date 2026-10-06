@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Injected into every frontend page as plain (non-executable) JSON
+         data; static/src/js/menu_popover.js reads it to know which links
+         need a confirmation popover. -->
+    <template id="layout_popover_menus" inherit_id="website.layout">
+        <xpath expr="//div[@id='wrapwrap']" position="after">
+            <script type="application/json" id="hfb_menu_popover_data">
+                <t t-out="request.website._get_popover_menus_json()"/>
+            </script>
+        </xpath>
+    </template>
+
+</odoo>
