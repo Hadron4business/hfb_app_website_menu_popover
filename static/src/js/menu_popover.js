@@ -1,4 +1,3 @@
-/** @odoo-module ignore */
 'use strict';
 
 /* Confirmation popover before following a configured menu link (Website >
