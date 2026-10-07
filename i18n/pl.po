@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hfb_app_website_menu_popover
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 07:22+0000\n"
+"PO-Revision-Date: 2026-10-07 07:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.module.module,description:base.module_hfb_app_website_menu_popover
+msgid ""
+"\n"
+"Website Menu Popover\n"
+"====================\n"
+"\n"
+"Sometimes a menu link should not be followed blindly: a link to another\n"
+"shop, to a different country site, or to a page with different terms.\n"
+"\n"
+"This app adds two settings to every website menu item: \"Show Popover\" and\n"
+"\"Popover Text\". When a visitor clicks such a menu item, a dialog with your\n"
+"text appears first, with \"Continue\" and \"Cancel\" buttons. The visitor is\n"
+"taken to the link only after pressing Continue. The text can be translated\n"
+"into every website language.\n"
+msgstr ""
+"\n"
+"Okno potwierdzenia w menu strony\n"
+"================================\n"
+"\n"
+"Niektórych linków w menu nie powinno się otwierać bez zastanowienia: link do\n"
+"innego sklepu, do strony dla innego kraju albo do strony z innymi warunkami.\n"
+"\n"
+"Aplikacja dodaje do każdej pozycji menu strony dwa ustawienia: \"Pokaż okno\n"
+"potwierdzenia\" i \"Tekst okna\". Gdy odwiedzający kliknie taką pozycję, najpierw\n"
+"pojawia się okno z Twoim tekstem i przyciskami \"Dalej\" i \"Anuluj\".\n"
+"Odwiedzający przechodzi do linku dopiero po kliknięciu Dalej. Tekst można\n"
+"przetłumaczyć na każdy język strony.\n"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.module.module,summary:base.module_hfb_app_website_menu_popover
+msgid "Ask visitors to confirm before they follow a website menu link"
+msgstr "Prośba o potwierdzenie przed przejściem do linku z menu strony"
+
+#. module: hfb_app_website_menu_popover
+#. odoo-python
+#: code:addons/hfb_app_website_menu_popover/models/website.py:0
+msgid "Cancel"
+msgstr "Anuluj"
+
+#. module: hfb_app_website_menu_popover
+#. odoo-python
+#: code:addons/hfb_app_website_menu_popover/models/website.py:0
+msgid "Continue"
+msgstr "Dalej"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model.fields,field_description:hfb_app_website_menu_popover.field_website__display_name
+#: model:ir.model.fields,field_description:hfb_app_website_menu_popover.field_website_menu__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model.fields,field_description:hfb_app_website_menu_popover.field_website__id
+#: model:ir.model.fields,field_description:hfb_app_website_menu_popover.field_website_menu__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model.fields,field_description:hfb_app_website_menu_popover.field_website_menu__popover_text
+msgid "Popover Text"
+msgstr "Tekst okna"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model.fields,field_description:hfb_app_website_menu_popover.field_website_menu__show_popover
+msgid "Show Popover"
+msgstr "Pokaż okno potwierdzenia"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model.fields,help:hfb_app_website_menu_popover.field_website_menu__show_popover
+msgid ""
+"Show a confirmation popover with the text below before following this menu "
+"item's link."
+msgstr ""
+"Pokaż okno potwierdzenia z poniższym tekstem przed przejściem do linku tej "
+"pozycji menu."
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model.fields,help:hfb_app_website_menu_popover.field_website_menu__popover_text
+msgid ""
+"Shown in the popover when a visitor clicks this menu item, before they are "
+"taken to its link."
+msgstr ""
+"Wyświetlany w oknie, gdy odwiedzający kliknie tę pozycję menu, zanim "
+"zostanie przeniesiony do linku."
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model,name:hfb_app_website_menu_popover.model_website
+msgid "Website"
+msgstr "Strona internetowa"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.model,name:hfb_app_website_menu_popover.model_website_menu
+msgid "Website Menu"
+msgstr "Menu strony"
+
+#. module: hfb_app_website_menu_popover
+#: model:ir.module.module,shortdesc:base.module_hfb_app_website_menu_popover
+msgid "Website Menu Popover"
+msgstr "Okno potwierdzenia w menu strony"
